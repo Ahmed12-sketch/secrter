@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-full flex items-center justify-between" dir="rtl">
           {/* Logo Section */}
           <Link href="/" className="flex items-center group relative h-full">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 relative transition-transform duration-300 group-hover:scale-110">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-40 lg:h-40 relative transition-transform duration-300 group-hover:scale-110">
               <Image 
                 src="/Logo.png" 
                 alt="Sekerteer Logo" 

@@ -16,8 +16,13 @@ const readex = Readex_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Sekerteer AI | سكرتير - منصة المحادثات الذكية",
+  title: "سكرتير | Sekerteer",
   description: "ابنِ محادثات ذكية في ثوانٍ. منصة سكرتير للذكاء الاصطناعي تدعم اللهجة السعودية وتؤتمت خدمة العملاء والمبيعات.",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
